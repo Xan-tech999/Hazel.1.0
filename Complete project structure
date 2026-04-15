@@ -1,0 +1,100 @@
+hazel/
+├── packages/
+│   ├── core/                           # AI brain & logic
+│   │   ├── src/
+│   │   │   ├── ai/
+│   │   │   │   ├── llm-provider.ts     # LLM API integration
+│   │   │   │   ├── personality.ts      # Hazel's personality engine
+│   │   │   │   ├── memory.ts           # User memory & learning
+│   │   │   │   └── adaptor.ts          # Personality adaptation
+│   │   │   ├── voice/
+│   │   │   │   ├── speech-to-text.ts   # STT integration
+│   │   │   │   ├── text-to-speech.ts   # TTS integration
+│   │   │   │   └── voice-detection.ts  # VAD
+│   │   │   ├── games/
+│   │   │   │   ├── minecraft.ts
+│   │   │   │   └── factorio.ts
+│   │   │   └── index.ts
+│   │   └── package.json
+│   │
+│   ├── server/                         # Backend API
+│   │   ├── src/
+│   │   │   ├── routes/
+│   │   │   │   ├── auth.ts
+│   │   │   │   ├── chat.ts
+│   │   │   │   ├── voice.ts
+│   │   │   │   ├── memory.ts
+│   │   │   │   └── profile.ts
+│   │   │   ├── db/
+│   │   │   │   ├── schema.ts           # Database schema
+│   │   │   │   └── migrations/
+│   │   │   ├── middleware/
+│   │   │   │   ├── auth.ts
+│   │   │   │   └── rate-limit.ts
+│   │   │   ├── services/
+│   │   │   │   ├── user.service.ts
+│   │   │   │   ├── conversation.service.ts
+│   │   │   │   └── memory.service.ts
+│   │   │   ├── websocket/
+│   │   │   │   └── handlers.ts
+│   │   │   └── index.ts
+│   │   └── package.json
+│   │
+│   ├── ui/                             # UI Components
+│   │   ├── src/
+│   │   │   ├── components/
+│   │   │   │   ├── ChatBubble.vue
+│   │   │   │   ├── CharacterDisplay.vue
+│   │   │   │   ├── VoiceInput.vue
+│   │   │   │   ├── MemoryPanel.vue
+│   │   │   │   └── Settings.vue
+│   │   │   ├── styles/
+│   │   │   └── index.ts
+│   │   └── package.json
+│   │
+│   ├── character/                      # Hazel character assets
+│   │   ├── models/
+│   │   │   ├── hazel-live2d/
+│   │   │   └── hazel-vrm/
+│   │   ├── animations/
+│   │   └── assets/
+│   │
+│   └── shared/                         # Shared types & utils
+│       ├── types.ts
+│       ├── constants.ts
+│       └── utils.ts
+│
+├── apps/
+│   ├── web/                            # Web App (Browser)
+│   │   ├── src/
+│   │   │   ├── pages/
+│   │   │   │   ├── Chat.vue
+│   │   │   │   ├── Profile.vue
+│   │   │   │   ├── Settings.vue
+│   │   │   │   └── Dashboard.vue
+│   │   │   ├── layouts/
+│   │   │   ├── App.vue
+│   │   │   └── main.ts
+│   │   ├── vite.config.ts
+│   │   └── package.json
+│   │
+│   ├── desktop/                        # Desktop App (Electron/Tauri)
+│   │   ├── src-tauri/
+│   │   ├── src/
+│   │   └── package.json
+│   │
+│   └── mobile/                         # Mobile App (React Native)
+│       ├── src/
+│       └── package.json
+│
+├── docs/
+│   ├── features.md
+│   ├── api.md
+│   ├── deployment.md
+│   └── contributing.md
+│
+├── .env.example
+├── docker-compose.yml
+├── pnpm-workspace.yaml
+├── package.json
+└── README.md
