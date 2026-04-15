@@ -1,0 +1,18 @@
+// Hazel your personal Ai companion 
+Frontend:
+- Vue 3 + TypeScript
+- WebGPU for GPU acceleration
+- WebAudio for voice processing
+- Three.js for character visualization
+- Live2D/VRM character models
+
+Backend:
+- Node.js + Hono (HTTP/WebSocket)
+- PostgreSQL (user data, conversations)
+- Redis (caching, real-time)
+- LLM Integration (OpenAI, Claude, local models)
+
+Platforms:
+- Web (Browser PWA)
+- Desktop (Electron/Tauri)
+- Mobile (React Native/Capacitor)
