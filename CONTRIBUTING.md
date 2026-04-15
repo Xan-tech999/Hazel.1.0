@@ -1,44 +1,22 @@
 # Contribution Guidelines
 
-Thank you for considering contributing to **Hazel**! We appreciate your efforts to make Hazel better.
+Thank you for your interest in contributing to the Hazel.1.0 project! We appreciate your effort and are looking forward to your input.  
 
-## Development Setup
-1. Clone the repository:
-   ```
-   git clone https://github.com/Xan-tech999/Hazel.1.0.git
-   cd Hazel.1.0
-   ```
+## How to Contribute  
+1. **Fork the repository:** Start by creating a copy of the project on your GitHub account.  
+2. **Create a new branch:** Use a descriptive name for your branch.  
+3. **Make changes:** Add your changes and make sure your code follows the project’s style guide.  
+4. **Commit changes:** Use clear and concise commit messages.  
+5. **Push to your fork:** Upload your changes to your GitHub repository.  
+6. **Create a pull request:** Submit your changes for review.
 
-2. Install dependencies:
-   ```
-   npm install
-   ```
+## Guidelines  
+- Always open an issue and discuss it before starting to work on a significant change.  
+- Follow the coding conventions used throughout the project.  
+- Write clear commit messages.
+- Ensure that your code is well-tested before submitting.
 
-3. Start the development server:
-   ```
-   npm start
-   ```
+## Contact  
+If you have any questions, feel free to reach out to the maintainers.  
 
-## Code Style
-- Follow the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
-- Use 2 spaces for indentation.
-- Use single quotes for strings where possible.
-
-## Commit Conventions
-- Use the following format for your commit messages:
-   ```
-   type(scope): subject
-   
-   body (optional)
-   ```
-- Example:
-   ```
-   feat(core): add new feature
-   ```
-
-## Pull Request Process
-1. Ensure your branch is up to date with the main branch.
-2. Create a pull request using the template provided on GitHub.
-3. Ensure code passes all tests and maintains existing functionality.
-4. Add a description of your changes.
-5. Wait for review and address comments if necessary before merging.
+Happy coding!
